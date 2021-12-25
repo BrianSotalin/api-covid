@@ -1,0 +1,76 @@
+/* iports fonts */
+@font-face {
+    font-family: "Caveat";
+    src: url(./fonts/caveat/Caveat-VariableFont_wght.ttf);
+}
+body {
+    background-color: rgb(5, 5, 53);
+    margin: 1rem ;
+    font-family: 'Caveat';
+    font-weight: bolder;
+   
+}
+
+.contenedor {
+    padding: 1rem 0 ;
+
+}
+.acciones{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: goldenrod;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.acciones input{
+
+    margin:  0px;
+    background-color: rgb(5, 5, 53);
+    color: brown;
+}
+.acciones select{
+ 
+    margin: 10px 0;
+    background-color: rgb(5, 5, 53);
+    color: brown;
+    font-family: sans-serif;
+    
+}
+.acciones button{
+    margin: 5px 0 ;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+    font-weight: 300;
+    background-color: brown;
+    color: goldenrod;
+    border-radius: 30px;
+}
+.acciones button:hover{
+    background-color: goldenrod;
+    color:brown ;
+    transition: 1s;
+}
+.contenedor b{
+    color: brown;
+    text-transform: uppercase;
+}
+.contenido{
+    margin : 2rem 0;
+    padding: 0 1rem;
+}
+.contenido li{
+    margin: 8px 0;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 15px;
+ 
+}
+.contenido span{
+    color: aqua;
+}
